@@ -6,7 +6,7 @@ properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKe
 node {      
   try 
   {
-     env.PATH = "${tool 'ant'}\\bin;${env.PATH}" 
+     //env.PATH = "${tool 'ant'}/bin:${env.PATH}" 
   
      def commitId=0
      def rc = 0
