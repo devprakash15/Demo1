@@ -31,7 +31,7 @@ node {
                 	commitId1 = sh returnStdout: true, script: "git rev-list --max-parents=0 HEAD"
                    // commitId1 = sh returnStdout: true, script: "git rev-list HEAD | tail -n 1"
                   
-                  echo "commitId1"
+                  echo "Dev1""commitId1"
              	  echo commitId1.toString()  
                   commitId = commitId1.toString();
                 }
