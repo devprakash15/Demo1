@@ -1,0 +1,20 @@
+<project name="Zurich NA Devops Demo" default="deployCode" basedir="." xmlns:sf="antlib:com.salesforce">
+
+    <property file="build.properties"/>
+    <property environment="env"/>
+
+    
+
+    <taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
+        <classpath>
+            <pathelement location="jar/ant-salesforce.jar" />        	
+        </classpath>
+    </taskdef>
+	
+    <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
+    <target name="test">
+      <!-- Upload the contents of the "mypkg" package -->
+      <sf:deploy username="${sf.username}" password="${sf.password}"  serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="src" rollbackOnError="true"/>
+    </target>
+
+</project>
