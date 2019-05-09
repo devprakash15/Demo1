@@ -1,4 +1,4 @@
-##!bin/sh
+#!bin/sh
 
 ## Description: This shell file used to prepare delta Manifest file used for manifest based deployed used by Jenkins
 ##              Script all the components committed after a specified tagged commmit. Tag name is passed as a parameter
@@ -21,9 +21,13 @@ else
 	git checkout $3
 fi
 
-count=$(git log --pretty=oneline HEAD...$1 --first-parent | wc -l )
+#count=$(git log --pretty=oneline HEAD...$1 --first-parent | wc -l )
 #count=$(git rev-parse HEAD | wc -l )
+#last_commitID=$(git log --format="%h" -n 1)
+
+count=$(git log --pretty=oneline HEAD...$1 --first-parent | wc -l )
 last_commitID=$(git log --format="%h" -n 1)
+
 
 #count=$(git log --pretty=oneline head...$1 | wc -l )
 
@@ -160,9 +164,45 @@ cat components.txt >> test.txt
 regExForClass="\.cls"
 regExForTrigger="\.trigger"
 regExForPage="\.page"
-	
+regExForComponent="\.component"
+regExForResource="\.resource"
+regExForEmail="\.email"
+regExForPNG="\.png$"
+regExForGIF="\.gif$"
+
+#Aura App and Componets file extensions
+regExForAPP="\.app$"
+regExForCMP="\.cmp$"
+regExForDGN="\.design$"
+regExForEVT="\.evt$"
+regExForINTF="\.intf$"
+regExForJS="\.js$"
+regExForSVC="\.svc$"
+regExForCSS="\.css$"
+regExForDoc="\.auradoc$"
+regExForTKNS="\.tokens$"
+regExForLgtAPPMeta="\.app-meta.xml$"
+regExForLgtCMPMeta="\.cmp-meta.xml$"
+regExForLgtEVTMeta="\.evt-meta.xml$"
+regExForLgtLWCMeta="\.js-meta.xml$"
+
+#End of Aura App and Componets file extensions
+
+#LWC App and Componets file extensions
+
+regExForHtml="\.html$"
+
+#End of LWC App and Componets file extensions
+
+
 while IFS='' read -r line || [[ -n "$line" ]]; do
-    if [[ "$line" =~ $regExForClass || "$line" =~ $regExForTrigger || "$line" =~ $regExForPage ]];
+    if [[ "$line" =~ $regExForClass || "$line" =~ $regExForTrigger || "$line" =~ $regExForPage || "$line" =~ $regExForComponent || 
+	"$line" =~ $regExForResource || "$line" =~ $regExForEmail || "$line" =~ $regExForPNG || "$line" =~ $regExForGIF || 
+	"$line" =~ $regExForAPP || "$line" =~ $regExForCMP || "$line" =~ $regExForDGN || "$line" =~ $regExForEVT || 
+	"$line" =~ $regExForINTF || "$line" =~ $regExForJS || "$line" =~ $regExForSVC || "$line" =~ $regExForCSS || 
+	"$line" =~ $regExForDoc || "$line" =~ $regExForTKNS || "$line" =~ $regExForHtml || 
+	"$line" =~ $regExForLgtAPPMeta || "$line" =~ $regExForLgtCMPMeta || "$line" =~ $regExForLgtEVTMeta || "$line" =~ $regExForLgtLWCMeta ]];
+	
 	then
 		str=`echo "$line" | cut -d"-" -f1`
 		echo "$str" >> tempManifest.txt
@@ -207,11 +247,58 @@ cd "`echo $s_path`"
 
 if grep -q "^src" project-manifest.txt ; then
         grep "^src" project-manifest.txt| grep -v 'src/labels' > delta.txt
+		grep "^src" project-manifest.txt| grep '^src/labels' >> delta.txt
+		
+	## Handle Placement of Labels in the manifest - bring it on top
+	##grep "^src/labels" project-manifest.txt | grep -v "/labels" > labels.txt
+	sed -i "1r labels.txt" delta.txt
+    echo "Delta file is as follows:"
+	echo "-----------------------------------------------------------"
+	cat "`echo $s_path`"/delta.txt
+	
+	## Handle Aura components
+	if grep -q  "^src/aura" delta.txt ; then
+	    echo "Preparing Aura components"
+		grep  "^src/aura" delta.txt |cut -d"/" -f3 | sort | uniq -d > aura.txt
+		echo "src/aura" > auralist.txt
+		sed -i 's/\r//g' aura.txt 
+		
+		for i in `cat aura.txt`;
+		do
+			cd ..
+			echo "src/aura/$i" >> scripts/auralist.txt
+			ls -b -R src/aura/$i/* >> scripts/auralist.txt
+			cd -
+		done;
+		sed -i '/src\/aura/d' delta.txt
+		cat auralist.txt >>delta.txt
+	fi
+	## Handle LWC components
+	if grep -q  "^src/lwc" delta.txt ; then
+	    echo "Preparing LWC components"
+		grep  "^src/lwc" delta.txt |cut -d"/" -f3 | sort | uniq -d > lwc.txt
+		echo "src/lwc" > lwclist.txt
+		sed -i 's/\r//g' lwc.txt 
+		
+		for i in `cat lwc.txt`;
+		do
+			cd ..
+			echo "src/lwc/$i" >> scripts/lwclist.txt
+			ls -R src/lwc/$i/* >> scripts/lwclist.txt
+			cd -
+		done;
+		sed -i '/src\/lwc/d' delta.txt
+		cat lwclist.txt >>delta.txt
+	fi
+else
+	cat ../project-manifest.txt > delta.txt
+	echo "Preparing Labels else"
+fi
 
-cp delta.txt ../project-manifest.txt; 
-	echo "Copying DELTA Manifest to $s_path/.."
+	cp delta.txt ../project-manifest.txt; 
+	echo "Copying project-manifest.txt to $s_path"
 	echo ""
-	echo "Delta file is as follows:"
+	echo "project-manifest.txt file is as follows:"
 	echo "-----------------------------------------------------------"
 	cat "`echo $s_path`"/../project-manifest.txt
 
@@ -222,14 +309,19 @@ if ! grep -q "project-manifest" components.txt; then
 fi
 
 # Remove temporary files
-rm uniqManifest.txt
-rm components.txt
-rm test.txt
-rm componentstemp.txt
-rm tempManifest.txt
-rm delta.txt
-rm componentsFile.txt
-rm del_components.txt
+rm uniqManifest.txt || true
+rm components.txt || true
+rm test.txt || true
+rm componentstemp.txt || true
+rm tempManifest.txt || true
+#rm aura.txt || true
+#rm auralist.txt || true
+#rm lwc.txt || true
+#rm lwclist.txt || true
+#rm delta.txt || true|| true
+rm componentsFile.txt || true
+rm del_components.txt || true
+rm "$s_path/project-manifest.txt" || true
 
 
 echo ""
