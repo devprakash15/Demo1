@@ -2,12 +2,6 @@
 <RemotePropertiesSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Items>
         <RemoteItemProperties>
-            <ItemKey>src\labels\CustomLabels.labels</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>wYa/3mZGWQ7omTDYl0nRkw==</Hash>
-            <LastModifiedDateUtcTicks>132019637936630000</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
             <ItemKey>src\objects\Account.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>fGNYd7B8CgfXZuJ/vLfLig==</Hash>
