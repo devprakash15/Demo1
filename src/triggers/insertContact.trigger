@@ -1,5 +1,5 @@
 trigger insertContact on Account (after insert) {
-	//adding some comments
+	//adding some comments 2
     Contact cont = new Contact();
     cont.LastName = Trigger.new[0].name;
     cont.AccountId = Trigger.new[0].ID; 
