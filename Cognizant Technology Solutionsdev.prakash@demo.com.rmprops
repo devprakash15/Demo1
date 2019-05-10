@@ -2,21 +2,15 @@
 <RemotePropertiesSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Items>
         <RemoteItemProperties>
+            <ItemKey>src\labels\CustomLabels.labels</ItemKey>
+            <Id>000000000000000AAA</Id>
+            <Hash>wYa/3mZGWQ7omTDYl0nRkw==</Hash>
+            <LastModifiedDateUtcTicks>132019637936630000</LastModifiedDateUtcTicks>
+        </RemoteItemProperties>
+        <RemoteItemProperties>
             <ItemKey>src\objects\Account.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>fGNYd7B8CgfXZuJ/vLfLig==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\AccountCleanInfo.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>/uYbk7Xa3gTiAfu1ZHv2oA==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\AccountContactRole.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>g3YBxAMWYuOKCbV8ywuIQg==</Hash>
             <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
@@ -26,75 +20,9 @@
             <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
-            <ItemKey>src\objects\Asset.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>A8GD9BFcHKtfpKLO7jUizQ==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\AssetRelationship.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>/Fcrw8j0mn5hLD+TbZStcw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\AssistantProgress.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>lhT1FxNnkk0itU1ZBqougw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\Campaign.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>vUm4zs2LL/2dypPw8Zlelw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\CampaignMember.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>5zYr3GIZw0c6++1EjPPaLA==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
             <ItemKey>src\objects\Case.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>lTuJhaHyLaXfkXfl2VFoKw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\CaseContactRole.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>i9lFbYCVc90EXEpJSOIzPQ==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\ChatterActivity.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>U24WANmuGogztWOMF+eYww==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\CollaborationGroup.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>tzjcOOhWtYYMZkDEfZqeBA==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\CollaborationGroupMember.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>ka+S8IQwEfCl9RxIDYdwBQ==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\ConsumptionRate.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>a07gJy4SXlXmooasDyI2xg==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\ConsumptionSchedule.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>ZjgWGgfUX0p/PEqh/mJWfQ==</Hash>
             <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
@@ -104,123 +32,9 @@
             <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
-            <ItemKey>src\objects\ContactCleanInfo.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>Rzhbax0RuOH5fRQNBguf6w==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\ContactRequest.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>ltg5C2Qn2cLBaPYBqhG4Tw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\ContentVersion.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>A/+DZCRbul1CgkvcWzGYyw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\Contract.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>gk6d1t0/vAifpZZy+a0YbA==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\ContractContactRole.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>XvxbTR1nH2lX6Ccc7NO3sg==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\DandBCompany.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>akMlx3iLwszVCxa3r8rCKA==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\DuplicateRecordItem.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>M+FV2bXiciSWu4jj9ROPkQ==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\DuplicateRecordSet.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>aWghiv1kgI9sMryYZAC4uw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\EmailMessage.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>pduepU7wjJuPq5ZYrWVi2Q==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
             <ItemKey>src\objects\Event.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>vxT8vBfRS5kPEjPgNIAe3w==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\ExchangeUserMapping.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>lhT1FxNnkk0itU1ZBqougw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\FeedItem.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>eYvFHqaKX0nla9q9pl6/0g==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\ForecastingCategoryMapping.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>QcdL/dv3BYOeOlPQImw9dg==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\Idea.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>LmK1iWUhy8BO/7QB7wvfJw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\Image.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>zu/lczaH+t7aKl21w0j2cA==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\Lead.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>kNm9dahjLQWYhrEjsUEnAw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\LeadCleanInfo.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>kSZ4gYBygd/HHR2srMToNg==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\Macro.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>8hQROMLkbpvWFelF54kZ1w==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\MacroAction.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>Rzhbax0RuOH5fRQNBguf6w==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\MacroInstruction.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>Rzhbax0RuOH5fRQNBguf6w==</Hash>
             <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
@@ -230,171 +44,15 @@
             <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
-            <ItemKey>src\objects\OpportunityCompetitor.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>int9uNh+JqnwNmPf2/MQDA==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\OpportunityContactRole.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>XvxbTR1nH2lX6Ccc7NO3sg==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\OpportunityLineItem.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>GGcwJdkUTrQE+5pdk/Ki1g==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\Order.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>JU/SrbkZGk8ddiEoriBjbQ==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\OrderItem.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>i19DVwdx2q+CZhgi9FTwUg==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\OrgDeleteRequest.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>lhT1FxNnkk0itU1ZBqougw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\PartnerRole.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>deqMzHwVGwecSsKfv0e5mg==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\Pricebook2.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>Lbe4DZ2TQjuHbcYhQw91Ag==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\PricebookEntry.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>JHoQMeExyjK355gh0aGVIw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\Product2.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>N84gT6OMLRWGjb1A3ZsMzg==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\ProductConsumptionSchedule.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>Kcl3xQKhJGeAr/MLvkmeZA==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\QuickText.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>WRMK7Akfz7raemBHfN6bfA==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\Recommendation.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>6/khHvgkv9ulTJHJFwKcRw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\RecordAction.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>MTMmSZIZb3dJgUNt2CTdkA==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\RequestsForAccessSIQ.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>lhT1FxNnkk0itU1ZBqougw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\Scorecard.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>gJ4yh7NDxvm1nRFW+gjlHw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\ScorecardAssociation.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>yq6PVaWCBjQlNIRqTc+qcw==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\ScorecardMetric.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>Kv8r28YbbRvgsjRC67jjRQ==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\Site.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>sPEqkemQYCtI5k8gA3Y2Dg==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\SocialPersona.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>2cd+bsj29mkJCvOCV3qs5Q==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\Solution.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>vgZJXrId26tebkQFIU0K0Q==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\StreamActivityAccess.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>UqLnC898HA0H8HPVx8oSKg==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\StreamingChannel.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>Aq2Iad8VhQktQuH/oEK3QQ==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
             <ItemKey>src\objects\Task.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>PQnQd/V2afigyWMXECfX2g==</Hash>
             <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
-            <ItemKey>src\objects\Topic.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>OlT7WbAND3B5fMf+cKFohg==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\TopicAssignment.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>U24WANmuGogztWOMF+eYww==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
             <ItemKey>src\objects\User.object</ItemKey>
             <Id>000000000000000AAA</Id>
             <Hash>6m9WolyfyP9UQVTEnQyYVA==</Hash>
-            <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
-        </RemoteItemProperties>
-        <RemoteItemProperties>
-            <ItemKey>src\objects\UserProvisioningRequest.object</ItemKey>
-            <Id>000000000000000AAA</Id>
-            <Hash>rxs6XqecddZ7uiaDke45IA==</Hash>
             <LastModifiedDateUtcTicks>132017579119204503</LastModifiedDateUtcTicks>
         </RemoteItemProperties>
         <RemoteItemProperties>
